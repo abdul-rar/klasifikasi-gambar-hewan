@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Klasifikasi Gambar Hewan</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Animal Image Classification with TFJS</h2>
+    <h3>Klasifikasi hewan: Anjing, Ayam, Kucing, Kupu-kupu, Sapi, Tupai</h3>
+
+    <p>Upload Gambar untuk diprediksi:</p>
+    <input type="file" id="imageInput" accept="image/*"/>
+    <br><br>
+    <img id="preview" src="" width="200" style="display:none;" />
+    <br><br>
+    <button onclick="predict()">Predict</button>
+    <p id="prediction">Prediction: -</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
