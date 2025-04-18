@@ -7,13 +7,13 @@ Proyek ini adalah aplikasi web sederhana untuk **klasifikasi gambar hewan** meng
 - Prediksi langsung di browser (tanpa server backend).
 - Mendukung model dengan input 224x224 piksel.
 - Tampilan modern dan responsif dengan CSS terpisah.
-- Klasifikasi 5 jenis hewan: **anjing, ayam, kupu-kupu, sapi, tupai**.
+- Klasifikasi 6 jenis hewan: **anjing, ayam, kucing, kupu-kupu, sapi, tupai**.
 
 ---
 
 ## 📂 Struktur Folder
 
-project-folder/ 
+klasifikasi-gambar-hewan 
 ├── model_2_best_tfjs # Model hasil konversi ke TensorFlow.js 
 │ ├── group1-shard1of4.bin
 │ ├── group1-shard2of4.bin
